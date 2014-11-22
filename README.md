@@ -9,6 +9,8 @@ minimal API to allow PouchDB instance to replicate over HTTP, it is designed
 to be mounted into expressjs web application to prove the an endpoint for
 PouchDB applications to sync with.
 
+The code is primarily forked from [https://github.com/pouchdb/express-pouchdb](https://github.com/pouchdb/express-pouchdb) to help users provide a minimal install.
+
 ## Example Usage
 
 Here's a sample Express app, which we'll name `app.js`.
