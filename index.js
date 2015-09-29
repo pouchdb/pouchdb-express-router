@@ -1,6 +1,6 @@
 'use strict';
 
-var app = require('express')();
+var express = require('express');
 
 var routes = {
   'db': require('./lib/routes/db.js'),
@@ -9,6 +9,8 @@ var routes = {
 };
 
 module.exports = function(PouchDB) {
+
+  var app = express.Router();
 
   app.use(function (req, res, next) {
     for (var prop in req.query) {
