@@ -48,5 +48,6 @@ module.exports = function(PouchDB) {
 
 // Used for testing porpoises
 // var PouchDB = require('pouchdb');
-// module.exports(PouchDB);
+// var app = express();
+// app.use(module.exports(PouchDB));
 // app.listen(5985);

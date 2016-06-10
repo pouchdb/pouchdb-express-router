@@ -20,7 +20,7 @@ var express = require('express');
 var app = express();
 var PouchDB = require('pouchdb');
 
-app.use('/db', require('express-pouchdb')(PouchDB));
+app.use('/db', require('pouchdb-express-router')(PouchDB));
 
 app.listen(3000);
 ```
