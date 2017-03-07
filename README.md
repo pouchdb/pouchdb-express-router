@@ -1,5 +1,7 @@
 # pouchdb-express-router
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/pouchdb/pouchdb-express-router.svg)](https://greenkeeper.io/)
+
 > An Express submodule with a CouchDB style REST interface to PouchDB.
 
 ## Introduction
