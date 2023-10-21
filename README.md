@@ -6,7 +6,7 @@
 
 **pouchdb-express-router** is an expressjs routing module that provides the
 minimal API to allow PouchDB instance to replicate over HTTP, it is designed
-to be mounted into expressjs web application to prove the an endpoint for
+to be mounted into expressjs web application to provide an endpoint for
 PouchDB applications to sync with.
 
 The code is primarily forked from [https://github.com/pouchdb/express-pouchdb](https://github.com/pouchdb/express-pouchdb) to help users provide a minimal install.
